@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+header {
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+.menu>li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+table {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
