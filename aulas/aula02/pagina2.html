@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+</head>
+<body>
+    <h1>Página 2</h1>
+    <p><a href="index.html">Voltar ao início.</a></p>
+    <p><a href="https://www.furb.br/pt" target="_blank">Ir para a FURB.</a></p>
+    <p><a href="mailto:mcardoso@furb.br">Manda e-mail.</a></p>
+    <p><a href="index.html#fim">Voltar ao início (fim).</a></p>
+    <p><a href="pagina3.html">Página 3</a></p>
+    <form action="" method="get">
+        <input type="text" name="login" id="" placeholder="Informe seu login" maxlength="10" size="12" autofocus required><br>
+        <input type="password" name="senha" id="" required><br>
+        <input type="number" name="idade" id="" min="18" max="120"><br>
+        <input type="text" name="nome1" id="" value="Marcos" readonly>
+        <input type="text" name="nome2" id="" value="Cardoso" disabled><br>
+        <label for="manterLogado"> Manter logado? </label><input type="checkbox" name="manterLogado" id="manterLogado" value="S" checked><br>
+            <input type="radio" name="curso" id="curso1" value="BCC" checked>
+                <label for="curso1">Ciência da Computação</label><br>
+            <input type="radio" name="curso" id="curso2" value="SIS">
+                <label for="curso2">Sistemas de Informação</label><br>
+        <select name="cidade" id="">
+            <option value="BNU">Blumenau</option>
+            <option value="GSP">Gaspar</option>
+            <option value="ITJ" selected>Itajaí</option>
+        </select><br>
+        <input type="email" name="email" id="" placeholder="Informe e-mail"><br>
+        <input type="hidden" name="primeiroLogin" value="S">
+        <input type="date" name="dtNascimento" id="">
+        <input type="datetime-local" name="dataCompleta" id=""><br>
+        <input type="file" name="arquivo" id=""><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

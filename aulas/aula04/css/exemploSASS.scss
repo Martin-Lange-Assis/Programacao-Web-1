@@ -1,0 +1,60 @@
+$corFundo: green;
+$corFonte: white;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+header {
+    background-color: $corFundo;
+    color: $corFonte;
+}
+
+footer {
+    background-color: $corFundo;
+    color: $corFonte;
+}
+
+nav {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    li {
+        list-style: none;
+    }
+    > li {
+        display: inline-block;
+    }
+}
+
+.superBotao {
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoDefault {
+    @extend .superBotao;
+    background-color: royalblue;
+}
+
+.botaoOk {
+    @extend .superBotao;
+    background-color: green;
+}
+
+.botaoErro {
+    @extend .superBotao;
+    background-color: red;
+}

@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(../media/DeliciousHandrawn-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: aqua;
+    width: 100vw;
+}
+
+.estilo {
+    color: yellow;
+    width: 50vw;
+    background-color: lightgray;
+}
+
+p.estilo {
+    font-weight: bold;
+}
+
+img {
+    width: 100vw;
+}
+
+#paragrafo {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.botao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    text-decoration: underline;
+}
+
+.botao:active {
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabela tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.tabela tr:hover {
+    background-color: lightblue;
+}
+
+.tabela tr:active {
+    font-weight: bold;
+}
+
+.lista li:last-child {
+    font-weight: bold;
+    color: brown;
+}
+
+.lista li:nth-child(3) {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    border-width: 0px;
+    border-bottom-width: 1px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+input[type="text"],[type="password"] {
+    background-color: aqua;
+}
+
+input:focus {
+    background-color: red;
+}
+
+.animacao1 {
+    width: 33vw;
+    height: 200px;
+    background-color: red;
+}
+
+.animacao1:hover {
+    animation: minhaAnimacao1 8s infinite;
+}
+
+@keyframes minhaAnimacao1 {
+/*    from { background-color: red;}
+    to { background-color: blue;}*/
+    0% {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: red;}
+}
+
+.animacao2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    animation: minhaAnimacao2 10s infinite;
+}
+
+@keyframes minhaAnimacao2 {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 300px; top: 0px;}
+    50% {background-color: green; left: 300px; top: 300px;}
+    75% {background-color: blue; left: 0px; top: 300px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+
+main {
+    padding-bottom: 15px;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: gold;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    font-family: 'MinhaFonte';
+    font-size: 2em;
+}
+
+.maisExterno {
+    border: 1px solid black;
+    width: 66vw;
+    height: 200px;
+    position: relative;
+}
+
+.aninhado {
+    border: 1px solid black;
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

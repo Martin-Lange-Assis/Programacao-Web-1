@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aqua;
+}
+
+header {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  background-color: green;
+  color: white;
+}
+
+nav {
+  background-color: blue;
+  padding: 5px;
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+nav li {
+  list-style: none;
+}
+nav > li {
+  display: inline-block;
+}
+
+.superBotao, .botaoErro, .botaoOk, .botaoDefault {
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoDefault {
+  background-color: royalblue;
+}
+
+.botaoOk {
+  background-color: green;
+}
+
+.botaoErro {
+  background-color: red;
+}/*# sourceMappingURL=exemploSASS.css.map */
